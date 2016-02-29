@@ -1,0 +1,134 @@
+div#notebook {
+  font-size: 16px;
+  line-height: 1.6em;
+  width: 100%;
+  padding-top: 0;
+  margin: 0px;
+  outline: none;
+  min-height: 100%;
+}
+#notebook-container {
+  width: 100%;
+}
+body {
+  background-color: #fff;
+  font-size: 16px;
+  padding: 0em 2em 2em 2em;
+}
+div#header-container.container {
+    display: none;
+}
+div#site {
+    height: 100%;
+}
+div#maintoolbar.navbar {
+    display: none;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+.notebook_app > #header {
+    box-shadow: none;
+}
+.notebook_app {
+    background-color: #fff;
+}
+#menubar .navbar {
+    border-top: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-default {
+    background-color: #fff;
+    border: 0;
+}
+div.end_space {
+    background-color: #fff;
+}
+div.input_area {
+    border: 0;
+    border-radius: 0;
+    background: #f7f7f7;
+    line-height: 1.21429em;
+}
+div.text_cell_render {
+    border-style: none;
+    color: #444;
+}
+div.out_prompt_overlay:hover {
+    box-shadow: none;
+    background: #fff;
+}
+div.out_prompt_overlay.prompt {
+    background-color: #fff;
+}
+div.output_scroll {
+    height: initial;
+    width: 100%;
+    overflow: initial;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+}
+#menubar {
+    margin-top: 0;
+}
+div.cell.selected {
+    border-color: #42A5F5;
+    border-left-width: 0px;
+    padding-left: 6px;
+    background: linear-gradient(to right, #42A5F5 -40px, #42A5F5 5px, transparent 5px, transparent 100%);
+}
+.CodeMirror {
+    font-size: 16px;
+    height: auto;
+    font: 85% Menlo, Consolas, Courier, monospace;
+    padding: 0.5rem;
+    color: #777;
+    margin: 0;
+}
+
+div.input {
+    display: block;
+}
+div.prompt.input_prompt {
+    display:none;
+}
+div.cell {
+    border-radius: 0;
+    display: block;
+}
+div.output_area img.unconfined, div.output_area svg.unconfined {
+    max-width: 100%;
+}
+div.output_subarea {
+    max-width: 100%;
+}
+div.output_area {
+    display: block;
+}
+div.out_prompt_overlay.prompt {
+    display: none !important;
+}
+
+.terminal-app #terminado-container {
+    margin-top: 0;
+}
+
+.terminal-app .terminal {
+    float: none;
+    font-family: monospace;
+    color: white;
+    background: black;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+div.terminal {
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
+    height: 100%;
+}
